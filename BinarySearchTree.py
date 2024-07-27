@@ -18,6 +18,7 @@ class BinarySearchTree:
             if newNode.val>temp.val:
                 if temp.right is None:
                     temp.right=newNode
+                    return True
                 temp=temp.right
             else :
                 if temp.left is None:
