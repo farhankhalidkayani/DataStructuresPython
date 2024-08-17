@@ -1,12 +1,11 @@
+
 class Stack:
     def __init__(self, value):
         self.stack=[]
         self.stack.append(value)
-
     def printList(self):
         for i in range(len(self.stack)-1,-1,-1):
             print(self.stack[i])
-
     def push(self, value):
         self.stack.append(value)
 
